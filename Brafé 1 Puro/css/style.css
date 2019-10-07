@@ -51,6 +51,16 @@ body{
 }
 
 @media only screen and (max-width: 739px){
+	
+	.menu{
+		text-align: center;
+	}
+
+	a.menu-logo{
+		float: none;
+		margin: 0 auto;
+	}
+
 	.menu-nav{
 		float: none;
 		clear: both;
@@ -320,6 +330,32 @@ h2.produtos-item-mineiro::before{
 	text-transform: uppercase;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 980px){
+
+	.locais{
+		max-width: 720px;
+	}
+
+	.locais-item > div{
+		width: 340px;
+	}
+
+	.locais-item img {
+		width: 340px;
+	}
+}
+
+@media only screen and (max-width: 739px){
+	.locais{
+		max-width: 300px;
+	}
+
+	.locais-item img, .locais-item > div{
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+
 /* newsletter */
 
 .newsletter{
@@ -387,6 +423,30 @@ h2.produtos-item-mineiro::before{
 	cursor: pointer;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 980px){
+	.newsletter-container{
+		max-width: 720px;
+	}
+
+	.newsletter-info,.newsletter form,.newsletter input{
+		width: 340px;
+	}
+}
+
+@media only screen and (max-width: 739px){
+	.newsletter-container{
+		max-width: 340px;
+	}
+
+	.newsletter-info,.newsletter form,.newsletter input{
+		width: 300px;
+		margin: 10px 0 0 0;
+	}
+}
+
+
+/*footer*/
+
 .footer{
 	background: #d3d6c8;
 	padding: 40px 0;
@@ -415,3 +475,20 @@ h2.produtos-item-mineiro::before{
 	margin: 0 10px;
 	display: block;
 }
+
+@media only screen and (max-width: 739px){
+	.footer-container{
+		max-width: 300px;
+	}
+
+	.footer p {
+		float: none;
+		margin: 0px;
+	}
+
+	.footer img{
+		float: none;
+		margin: 20px 0;
+	}
+}
+
